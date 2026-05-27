@@ -102,4 +102,19 @@ Interactive search is powered by `fzf`, allowing instant filtering of very large
 
 ## Notes
 
-The project was developed and tested on Ubuntu Linux with USBSID-Pico hardware.
+Place sidjukebox.sh inside the root folder containing your SID files (for example the main HVSC directory), then run it from there:
+
+chmod +x sidjukebox.sh
+./sidjukebox.sh
+
+The script scans the current directory recursively and indexes all .sid and .rsid files found in subfolders.
+
+Example:
+
+HVSC/
+├── C64Music/
+├── DOCUMENTS/
+├── sidjukebox.sh
+
+Some SID files contain multiple subtunes.
+Use the keyboard controls to switch between subtunes during playback.

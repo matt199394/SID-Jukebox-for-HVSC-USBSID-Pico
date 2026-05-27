@@ -112,8 +112,11 @@ The script scans the current directory recursively and indexes all .sid and .rsi
 Example:
 
 HVSC/
+
 ├── C64Music/
+
 ├── DOCUMENTS/
+
 ├── sidjukebox.sh
 
 Some SID files contain multiple subtunes.

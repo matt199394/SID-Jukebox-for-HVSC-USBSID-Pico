@@ -19,12 +19,12 @@ The script is designed for fast browsing and playback of large SID collection li
 
 ### USBSID-Pico
 
-The project uses a real SID chip connected through a USB interface based on Raspberry Pi Pico / RP2040.
+The project uses a real SID chip connected through a USB interface based on Raspberry Pi Pico / RP2040 USBSID-Pico https://github.com/LouDnl/USBSID-Pico
 
 Supported SID chips:
 
 * MOS 6581
-* MOS 8580
+* MOS 8581
 
 The USBSID-Pico acts as a USB SID playback device and is supported directly by `sidplayfp`.
 
